@@ -1,0 +1,47 @@
+{
+  "name": "flam-queuectl-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "queuectl": "./src/cli/index.js"
+  },
+  "scripts": {
+    "start": "node src/cli/index.js",
+    "test": "jest",
+    "demo": "node scripts/demo.js",
+    "setup-db": "node scripts/setup-database.js",
+    "health-check": "node scripts/health-check.js",
+    "install-global": "npm install -g ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ganapanenichaitrasai/flam-queuectl-backend.git"
+  },
+  "keywords": [
+    "queue",
+    "cli",
+    "background-jobs",
+    "job-queue",
+    "concurrent"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.0.0",
+    "dotenv": "^16.6.1",
+    "pg": "^8.16.3",
+    "pg-pool": "^3.10.1"
+  },
+  "devDependencies": {
+    "jest": "^29.6.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ganapanenichaitrasai/flam-queuectl-backend/issues"
+  },
+  "homepage": "https://github.com/ganapanenichaitrasai/flam-queuectl-backend#readme"
+}
