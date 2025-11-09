@@ -66,7 +66,7 @@ graph TB
     style DB fill:#fafafa
 ```
 
-## 🔄 Data Flow
+## Data Flow
 
 1. CLI Input → Command parsing and validation
 
